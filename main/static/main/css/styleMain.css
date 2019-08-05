@@ -1,0 +1,18 @@
+body {
+    padding-top: 35px;
+}   
+.navbar-footer {
+    background-color: #F8F8F8;
+    margin-top: 15px;
+}
+.navbar-footer footer p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}  
+

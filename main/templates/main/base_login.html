@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Login Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" media="screen" href="{% static 'main/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" media="screen" href="{% static 'main/css/bootstrap-theme.min.css' %}">
+    <link rel="stylesheet" media="screen" href="{% static 'main/css/styleLogin.css' %}">
+</head>
+<body>
+	{% include "main/main_login_header.html" %}
+
+    {% block content %}
+
+    {% endblock content %}
+
+    <script type="text/javascript" src="{% static 'main/js/jquery-1.12.3.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'main/js/bootstrap.min.js' %}"></script>
+
+    {% block scripts %}
+
+    {% endblock scripts %}
+
+</body>
+</html>
