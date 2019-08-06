@@ -50,6 +50,8 @@ DATABASE_URL="postgres://user:password@server:port/name-db"
 
 ```
 
+import dj_database_url
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
